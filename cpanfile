@@ -1,3 +1,17 @@
+requires "common::sense";
+requires "Web::Scraper";
+requires "Time::Out";
+requires "WWW::UserAgent::Random";
+requires "Module::Load";
+requires "LWP::Simple";
+requires "File::Spec";
+requires "List::MoreUtils";
+requires "REST::Client";
+requires "Text::Unaccent::PurePerl";
+requires "Moo::Role";
+requires "JSON::XS";
+requires "namespace::autoclean";
+
 requires "Dancer2" => "0.160001";
 requires "Dancer2::Plugin::Database" => "0";
 requires "DBD::mysql" => "4.031";
